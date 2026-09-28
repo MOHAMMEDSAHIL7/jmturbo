@@ -1,0 +1,58 @@
+export const companies = [
+  {
+    id: 1,
+    name: "Apex Garage",
+    city: "Chennai",
+    state: "Tamil Nadu",
+    address: "Sample Road, Guindy",
+    brands: ["BMW", "Supra"],
+    services: ["ECU Remap", "Dyno Tuning"],
+    rating: 4.8,
+    reviews: [
+      { by: "Arun", stars: 5, text: "Great remap, smooth power delivery." },
+      { by: "Karthik", stars: 4, text: "Good work, a bit of a wait." },
+    ],
+  },
+  {
+    id: 2,
+    name: "Redline Performance",
+    city: "Bengaluru",
+    state: "Karnataka",
+    address: "Sample Street, Indiranagar",
+    brands: ["Lancer", "BMW"],
+    services: ["Turbo Upgrade", "Suspension"],
+    rating: 4.6,
+    reviews: [
+      { by: "Rohan", stars: 5, text: "Turbo install was clean and quick." },
+      { by: "Meera", stars: 4, text: "Helpful team, fair prices." },
+    ],
+  },
+  {
+    id: 3,
+    name: "Torque Lab",
+    city: "Mumbai",
+    state: "Maharashtra",
+    address: "Sample Lane, Andheri",
+    brands: ["Supra", "Lancer"],
+    services: ["ECU Remap", "Exhaust"],
+    rating: 4.4,
+    reviews: [
+      { by: "Imran", stars: 4, text: "Exhaust sounds amazing." },
+      { by: "Sana", stars: 5, text: "Very professional." },
+    ],
+  },
+  {
+    id: 4,
+    name: "Boost Brothers",
+    city: "Hyderabad",
+    state: "Telangana",
+    address: "Sample Nagar, Madhapur",
+    brands: ["BMW", "Supra", "Lancer"],
+    services: ["Dyno Tuning", "Turbo Upgrade", "Brakes"],
+    rating: 4.9,
+    reviews: [
+      { by: "Vikram", stars: 5, text: "Best dyno session I have had." },
+      { by: "Anita", stars: 5, text: "Honest advice, great results." },
+    ],
+  },
+];
